@@ -25,18 +25,22 @@ function Hero(){
         <figure className='absolute top-32 right-10 md:right-24 lg:right-72 w-[120px] md:w-[170px] lg:w-[177px]'>
           <Image
           src={illustration2}
+          className="filter brightness-125"
+
           alt = "illustration 2"
            />
         </figure>
         <figure className=' hidden md:flex absolute top-80 right-10 md:right-0 lg:right-8 w-[120px] md:w-[170px] lg:w-[188px]'>
           <Image
           src={illustration3}
+          className="filter brightness-155"
           alt = "illustration 3"
            />
         </figure>
-        <figure className='absolute hidden lg:flex bottom-[-45px] right-10 md:right-24 lg:right-72 w-[120px] md:w-[170px] lg:w-[300px]'>
+        <figure className='absolute hidden  lg:flex md:bottom-[-45px] lg:bottom-[-45px] right-10 md:right-24 lg:right-72 w-[120px] md:w-[160px] lg:w-[280px]'>
           <Image
           src={illustration1}
+          className="filter brightness-155"
           alt = "illustration 3"
            />
         </figure>
