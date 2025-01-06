@@ -33,6 +33,9 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --charcoal: #1A1A1A;
+    --gray-faded: #e6e6e6;
+
   }
   .dark {
     --background: 0 0% 3.9%;
