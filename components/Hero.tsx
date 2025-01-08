@@ -12,17 +12,19 @@ function Hero(){
             <section className="w-full h-[450px] md:h-[508px] lg:h-[528px] bg-[--charcoal] rounded-[32px] mt-10">
             <div className="w-full flex items-end md:items-center h-full p-4 md:p-8 lg:p-10">
         <div className="flex    flex-col space-y-6 p-4 md:p-6 lg:p-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-white">
-            We Building Custom <br /> Website for Business
-          </h1>
+        <h1 
+  className="text-4xl md:text-5xl lg:text-6xl font-medium text-white   w-[250px]  md:w-[600px] lg:w-[800px]  ">
+  We Build Custom Websites for Your Business.
+</h1>
+
+
           <p className="text md:text-lg text-[--gray-faded] font-normal max-w-2xl">
-            Streamline operations, drive growth, and empower your business with tailored solutions.
-          </p>
-          <div className="mt-4 lg:mt-6 md:w-[190px]">
+          Let us create a modern, high-converting website that reflects your brand and drives action. Don’t let an outdated website hold you back.            </p>
+          <div className="mt-4 lg:mt-6 md:w-[250px]">
             <GetStartedButton />
           </div>
         </div>
-        <figure className='absolute top-32 right-10 md:right-24 lg:right-72 w-[120px] md:w-[170px] lg:w-[177px]'>
+        <figure className='absolute top-32 right-10 md:right-24 lg:right-64 w-[120px] md:w-[170px] lg:w-[177px]'>
           <Image
           src={illustration2}
           className="filter brightness-125"
