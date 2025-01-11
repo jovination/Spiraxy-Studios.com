@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spiraxy Studios  | Building Software For Business",
+  title: "Spiraxy Studios | Building Website For Business.",
   description: "Get tailored software solutions for businesses, designed to streamline operations and drive growth. Discover innovative tools and services that empower your success.",
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[--background]`}
       >
         {children}
       </body>
