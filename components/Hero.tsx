@@ -24,7 +24,7 @@ function Hero(){
             <GetStartedButton />
           </div>
         </div>
-        <figure className='absolute top-32 right-10 md:right-24 lg:right-64 w-[120px] md:w-[170px] lg:w-[177px]'>
+        <figure className='absolute top-32 right-10 md:right-24 lg:right-64 w-[110px] md:w-[170px] lg:w-[177px]'>
           <Image
           src={illustration2}
           className="filter brightness-125"

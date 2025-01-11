@@ -70,8 +70,8 @@ function Navbar() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right">
-            <nav className="flex flex-col space-y-4">
+          <SheetContent side="right" className="w-[380px] m-4 border-none">
+            <nav className="flex flex-col space-y-2 bg-[--background] w-full h-auto p-4 rounded-2xl">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
